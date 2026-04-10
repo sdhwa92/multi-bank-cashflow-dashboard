@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "change-me-in-production"
     DEBUG: bool = False
     CORS_ORIGINS: list[str] = ["http://localhost:5173"]
+    ANTHROPIC_API_KEY: str = ""
 
 
 settings = Settings()

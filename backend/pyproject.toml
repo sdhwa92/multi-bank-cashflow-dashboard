@@ -14,6 +14,9 @@ dependencies = [
     "alembic>=1.13.0",
     "pydantic-settings>=2.4.0",
     "psycopg2-binary>=2.9.9",
+    "pdfplumber>=0.11.0",
+    "anthropic>=0.40.0",
+    "python-multipart>=0.0.9",
 ]
 
 [project.optional-dependencies]
